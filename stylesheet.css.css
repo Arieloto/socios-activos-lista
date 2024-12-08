@@ -1,0 +1,133 @@
+
+  .header1 {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Espacio entre el logo y el texto */
+    margin-bottom: 20px;
+}
+
+.logo1 {
+    width: 80px; /* Ajusta el tamaño del logo */
+    height: 80px; /* Mantén una proporción cuadrada */
+    border-radius: 50%; /* Hace el logo redondeado */
+    object-fit: cover; /* Ajusta la imagen al contenedor */
+    border: 2px solid #b6b6b6; /* Opcional: agrega un borde para destacarlo */
+}
+
+.titulos {
+    font-size: 1.8rem; /* Ajusta el tamaño del texto */
+    color: #000000; /* Color del texto */
+    margin: 0; /* Elimina el margen */
+ 
+}
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+#tabla-socios {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  table-layout: fixed; /* Asegura que las columnas tengan un ancho fijo */
+}
+
+#tabla-socios th, #tabla-socios td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  word-wrap: break-word; /* Permite que el texto se ajuste y no se desborde */
+  overflow: hidden; /* Asegura que no haya desbordamiento de contenido */
+  text-overflow: ellipsis; /* Muestra puntos suspensivos si el texto es muy largo */
+}
+
+#tabla-socios th {
+  background-color: #f2f2f2;
+}
+
+#tabla-socios img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  max-width: 100%; /* Asegura que las imágenes se ajusten al tamaño de la celda */
+  height: auto;
+  display: block; /* Esto permite que la imagen se comporta como un bloque */
+  margin-left: auto;
+  margin-right: auto; /* Centra la imagen horizontalmente */
+}
+
+/* Estilo para las celdas con información más pequeña y centrada */
+#tabla-socios td.fecha-ingreso,
+#tabla-socios td.rut,
+#tabla-socios td.telefono,
+#tabla-socios td.correo {
+  font-size: 12px; /* Tamaño de fuente más pequeño */
+  text-align: center; /* Centra el texto */
+  padding: 4px 8px; /* Reduce el espacio en las celdas */
+  word-wrap: break-word; /* Permite que el texto largo se ajuste dentro de la celda */
+  overflow: hidden;
+  text-overflow: ellipsis; /* Agrega puntos suspensivos si el texto no cabe */
+}
+
+/* Estilos específicos para la impresión */
+@media print {
+  body {
+      margin: 0;
+      padding: 0;
+  }
+
+  #tabla-socios {
+      width: 100%;
+      table-layout: fixed; /* Asegura que la tabla se ajuste bien en la impresión */
+  }
+
+  /* Definir la página para que se ajuste al tamaño A4 en orientación vertical */
+  @page {
+      size: A4 portrait; /* Orientación vertical */
+      margin: 18mm; /* Márgenes de impresión */
+  }
+
+  /* Asegurar que la tabla no se salga de los márgenes */
+  .tabla-socios {
+      width: 100%;
+      max-width: 100%;
+      page-break-inside: auto;
+  }
+
+  /* Limitar el tamaño de las celdas durante la impresión */
+  #tabla-socios th, #tabla-socios td {
+      max-width:   70mm; /* Ajusta el máximo ancho de las celdas */
+      word-wrap: break-word; /* Permite que el texto se ajuste dentro de la celda */
+      overflow: hidden;
+      text-overflow: ellipsis; /* Puntos suspensivos si el texto no cabe */
+  }
+  
+  /* Aseguramos que las imágenes se centren también en la impresión */
+  #tabla-socios img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+  }
+
+  /* Para la impresión, también centramos la información más pequeña */
+  .cuadro{
+      font-size: 16px; /* Tamaño más pequeño para impresión */
+      text-align: center; /* Centra el texto */
+      padding: 2px 4px; /* Reduce aún más el espacio en las celdas para la impresión */
+  }
+
+
+}
