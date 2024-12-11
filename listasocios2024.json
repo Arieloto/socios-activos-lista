@@ -469,7 +469,7 @@
             "Direccion": "El Parque N° 77 Artificio La Calera"
         },
         {
-            "FechaIngreso": "02-06-2019",
+            "FechaIngreso": "02\/06\/2019",
             "NumSocio": 89,
             "Nombre1": "Jose",
             "Nombre2": "Luis",
@@ -934,7 +934,7 @@
             "RUT": "8.643.774-0",
             "Fono": 993348518,
             "Email": "supermercadoescorial@gmail.com",
-            "Direccion": "S/I"
+            "Direccion": "Tacora 9054 Santiago"
         },
         {
             "FechaIngreso": "05\/10\/2022",
@@ -1976,7 +1976,7 @@
             "Direccion": "Veracruz 2022 Villa el Alba Quillota"
         },
         {
-            "FechaIngreso": "S/I",
+            "FechaIngreso": "04\/01\/2019",
             "NumSocio": 64,
             "Nombre1": "Yaroslav",
             "Nombre2": "Ludwig",
@@ -2467,7 +2467,7 @@
             "RUT": "8.384.091-9",
             "Fono": 973863423,
             "Email": "foz3ds@gmail.com",
-            "Direccion": "S/I"
+            "Direccion": "Avenida condell local 12 N° 87 quillota"
         },
         {
             "FechaIngreso": "09\/01\/2024",
