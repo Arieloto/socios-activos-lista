@@ -1623,20 +1623,7 @@
             "Fono": 988808334,
             "Email": "jai.chavez.d@gmail.com",
             "Direccion": "Las Perlas Norte 125 Viña del Mar"
-        },
-        {
-            "FechaIngreso": "01\/06\/2023",
-            "NumSocio": 237,
-            "Nombre1": "Juan",
-            "Nombre2": "Carlos",
-            "Apellido1": "Rincones",
-            "UrlFotos": "Fotos Socios/Juan Rincones.png",
-            "Apellido2": "Gallardo",
-            "RUT": "6.856.200-7",
-            "Fono": 995597305,
-            "Email": "jcrg@jcrg.cl",
-            "Direccion": "Las Violetas 2543 Quilpue"
-        },
+        },      
         {
             "FechaIngreso": "01\/06\/2023",
             "NumSocio": 238,
@@ -2299,20 +2286,7 @@
             "Fono": 993234170,
             "Email": "fabianstefanarancibia@gmail.com",
             "Direccion": "Pedro Aguirre Cerda Lote 3 B Pocochay La Cruz"
-        },
-        {
-            "FechaIngreso": "04\/14\/2024",
-            "NumSocio": 103,
-            "Nombre1": "Giancarlo",
-            "Nombre2": "",
-            "Apellido1": "Poppa",
-            "UrlFotos": "Fotos Socios/Giancarlo Poppa.png",
-            "Apellido2": "Zarate",
-            "RUT": "13.990.282-3",
-            "Fono": 988464123,
-            "Email": "poppa@live.cl",
-            "Direccion": "S/I"
-        },
+        },   
         {
             "FechaIngreso": "04\/24\/2024",
             "NumSocio": 202,
