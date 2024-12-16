@@ -1,24 +1,23 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de Socios</title>
-    <link rel="stylesheet" href="stylesheet.css.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tarjetas de Socios</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <div class="header1">
-        <img src="Escudo.png" alt="Logo Club de Tiro" class="logo1">
-        <p class="titulos">Lista de Socios Club Nacional de Tiro N° 69 Almirante Blanco Encalada Olmue</p>
-    </div>
-    
-    <table id="tabla-socios" class="tabla-socios">       
-         
-        <tbody id="cuerpo-tabla">
-            <!-- Los datos se cargarán aquí usando JavaScript -->
-        </tbody>
-    </table>
+  <body>  
+    <div class="botones">
+      <input type="text" id="search-bar" placeholder="Buscar socio...">
+      <button id="search-button">Buscar</button>
+      <button id="reset-button">Reiniciar</button>
+  </div>
 
-    <script src="app.js"></script>
+ 
+    <div id="card-container"></div>
+  <script src="app.js"></script>
 </body>
 </html>

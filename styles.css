@@ -1,0 +1,162 @@
+
+.card {
+  display: flex;
+  justify-content: center;
+  height: 54mm;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.front {
+  display: flex;
+  width: 86mm; 
+  margin-right: 5px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2); /* Borde interior leve */
+ 
+}
+
+.left-section {
+  flex: 1;
+  background-color: #003366;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 65px;
+  flex-direction: column;
+  overflow: hidden;
+ 
+  
+}
+
+.right-section {
+  flex: 2;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 60px;
+  flex-direction: column;
+}
+
+.profile-photo {
+  width: 80px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+ overflow-y: hidden;
+ align-self: center;
+}
+
+.name {
+  font-family: 'Montserrat', sans-serif; /* Fuente Montserrat */
+  font-size: 14px; /* Tamaño adecuado */
+  color: #FFFFFF; /* Blanco */  
+  text-transform: uppercase; /* Mayúsculas */
+  font-weight: bold;
+  text-align: center;
+}
+
+.logo {
+  width: 20mm;
+  height: 20mm; 
+  padding-left: 35px;
+ 
+;
+}
+
+.info {
+
+  font-family: 'Montserrat', sans-serif; /* Fuente Montserrat */
+  font-size: 12px;
+  text-align: left;
+  margin: 0;
+}
+
+.back {
+  font-family: 'Montserrat', sans-serif; /* Fuente Montserrat */
+  display: flex;
+  flex-direction: column;
+  width: 86mm;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2); /* Borde interior leve */
+  
+
+}
+
+.title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #003366; /* Azul sobrio */
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.rules-image {
+  width: 30mm;
+  height: auto;
+  margin-top: 10px;
+  align-self: center;
+  padding-bottom: 10px;
+  overflow: hidden;
+}
+
+.logotext { 
+  text-align: center;
+  font-size: 16px;
+font-family: 'Montserrat', sans-serif; /* Fuente Montserrat */
+position: absolute;
+margin-right: 330px;
+background-color: rgba(32, 107, 192, 0.678);
+color: #fff;
+font-weight: 500;
+box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+overflow: hidden;
+
+}
+.botones{display: flex;
+  justify-content: center;
+}
+
+@media print {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Elimina márgenes y estilos no necesarios para impresión */
+  * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}
+.left-section,
+.right-section {
+  overflow: hidden; /* Evita que se desborde el contenido en impresión */
+  box-sizing: border-box; /* Asegura que padding y bordes no afecten el tamaño total */
+}
+
+.left-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px; /* Reduce el padding para evitar desbordamientos */
+}
+
+.profile-photo {
+  width: 50px; /* Tamaño ajustado */
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  overflow: hidden;
+  margin-bottom: 10px; /* Espaciado uniforme */
+}
+
+.name {
+  font-size: 12px; /* Tamaño reducido */
+  margin: 5px 0;
+  word-wrap: break-word;
+  text-align: center;
+}
