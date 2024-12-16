@@ -139,29 +139,22 @@ overflow: hidden;
   box-sizing: border-box; /* Asegura que padding y bordes no afecten el tamaño total */
 }
 
-.left-section {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 10px; /* Reduce el padding para evitar desbordamientos */
-}
+
 
 .profile-photo {
-  width: 50px; /* Tamaño ajustado */
-  height: 50px;
+  width: 70px; /* Tamaño ajustado */
+  height: 70px;
   border-radius: 50%;
   border: 2px solid #fff;
   overflow: hidden;
   margin-bottom: 10px; /* Espaciado uniforme */
 }
-
 .name {
   font-size: 12px; /* Tamaño reducido */
   margin: 5px 0;
   word-wrap: break-word;
   text-align: center;
 }
+
 
 }
