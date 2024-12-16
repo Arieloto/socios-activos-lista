@@ -119,6 +119,10 @@ overflow: hidden;
 }
 
 @media print {
+
+  .botones {
+    display: none;
+  }
   body {
     margin: 0;
     padding: 0;
@@ -129,8 +133,7 @@ overflow: hidden;
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
   }
-}
-.left-section,
+  .left-section,
 .right-section {
   overflow: hidden; /* Evita que se desborde el contenido en impresión */
   box-sizing: border-box; /* Asegura que padding y bordes no afecten el tamaño total */
@@ -159,4 +162,6 @@ overflow: hidden;
   margin: 5px 0;
   word-wrap: break-word;
   text-align: center;
+}
+
 }
